@@ -1,0 +1,144 @@
+
+
+h1{
+display: flex;
+justify-content: center;
+color:white;
+margin:3% auto;
+font-size: 32pt;
+}
+.user{
+margin-top: 5%;
+margin-left: 41%;
+text-align: center;
+}
+.gameoption{
+font-size: 32pt;
+display: flex;
+justify-content: center;
+margin:10% auto;
+width:300px;
+height: 60px;
+background: #079EE4;
+border-radius: 15px;
+text-decoration: none;
+
+}
+a{
+color: white;
+}
+
+body{
+background: #3B3634;
+}
+
+.mainContainer {
+  display:flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-top:2%;
+
+}
+
+.grid4x4 {
+  display:grid;
+  height:400px;
+  width: 400px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.square {
+  position:relative;
+  border: 2px solid black;
+  margin-left: 2px;
+}
+
+.letters{
+  display:flex;
+  justify-content: center;
+  font-size: 32pt;
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 18px;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  user-select: none;
+}
+.gameinfo {
+  font-size: 32px;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.score{
+  width: 100px;
+  height: 40px;
+  background: #079EE4;
+  position: absolute;
+}
+.grid{
+  display: block;
+  margin:auto;
+  font-size: xx-large;
+  height:400px;
+  width: 400px;
+  margin-top: 50px;
+  background: #079EE4;
+}
+.gamescore{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.restart{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 24pt;
+}
+.btn{
+  background: #079EE4;
+}
+.pause{
+  width: 70px;
+  height: 40px;
+  background: #079EE4;
+  font-weight: 800;
+  position: relative;
+  margin-left: 20%;
+}
+.wordtype{
+  background: #079EE4;
+}
+.wordcorrect{
+  background: #2ECC71;
+}
+.wordwrong{
+  background: #E74C3C;
+}
+.timer{
+  display: block;
+  background: #353A3F;
+  color:white;
+  margin: auto;
+  border: solid 2px white;
+  width: 150px;
+  font-size: 24pt;
+}
+.inputword{
+  color:white;
+  display: inline-flex;
+  width:200px;
+  height:400px;
+  margin-inline-start: 45px;
+}
+input{
+  display:flex;
+  justify-content: center;
+  margin:auto;
+  text-align: center;
+}
